@@ -14,22 +14,13 @@ Some koans simply need to have the correct answer substituted for an incorrect o
 
 1. Install [.NET Core SDK 2.0](https://www.microsoft.com/net/core).
 2. Install [Visual Studio Code](https://code.visualstudio.com/), the [Insiders Edition](https://code.visualstudio.com/insiders) is highly recommended.
-3. Clone the repository: `git clone https://github.com/NotMyself/DotNetCoreKoans.git`.
+3. Fork this repository, the clone the fork: `git clone https://github.com/<<Your github name>>/DotNetCoreKoans.git`.
 4. Change directory into the cloned repository `cd DotNetCoreKoans`.
 5. Restore packages: `dotnet restore`.
 6. Open the project in VSCode `code-insiders .` or `code .` depending on what version you chose to install.
 7. Run the koans in watch mode: `dotnet watch --quiet run`.
-    - **Note:** The `--quiet` flag is used here to suppress mesages from the watch framework.
+    - **Note:** The `--quiet` flag is used here to suppress messages from the watch framework.
 8. Follow along with the instructions printed to your console. Each time you save a *.cs file, the project will be built and run again for you automatically.
-
-### Contributing
-
-There are many topics yet to be covered by this set of koans. I have added a handful of needed topics as [issues](https://github.com/NotMyself/DotNetCoreKoans/issues) and tagged them as [Up for Grabs](https://github.com/NotMyself/DotNetCoreKoans/issues?q=is%3Aopen+is%3Aissue+label%3A%22Up+for+Grabs%22). There are even some specifically tagged as [Beginner Friendly](https://github.com/NotMyself/DotNetCoreKoans/issues?q=is%3Aopen+is%3Aissue+label%3A%22Beginner+Friendly%22).
-
-If you have never contributed to an open source project, let this be your first. Take a stab at updating the AboutStrings Koan to include information about [interpolation](https://github.com/NotMyself/DotNetCoreKoans/issues/7) then submit it as a pull request. I promise to work with you to get your contribution into the repository and be friendly and encouraging about it. It is what Jim would have done.
-
-If you think a topic is missing, propose it's inclusion by [submitting an issue](https://github.com/NotMyself/DotNetCoreKoans/issues/new) yourself. Or better yet submit the issue and an accompanying pull request with how you think the topic should be introduced. Think about beginners in your effort; be clear and informative, be concise and most of all be playful with your examples.
-
 
 ### About Koans
 
