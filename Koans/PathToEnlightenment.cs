@@ -7,28 +7,28 @@ namespace DotNetCoreKoans.Koans
     {
         public PathToEnlightenment()
         {
-            Types = new Type[] {
+           Types = new Type[] {
                 // START: Adventure Mode
                 typeof(AboutAsserts),
                 typeof(AboutNull),
-                typeof(AboutArrays),
                 typeof(AboutArrayAssignment),
                 typeof(AboutStrings),
                 typeof(AboutFloats),
                 typeof(AboutControlStatements),
+                typeof(AboutArrays),
                 typeof(AboutMethods),
                 // END: Adventure Mode
 
                 // START: Explorer mode
-                // typeof(AboutLambdas),
-                // typeof(AboutLinq),
-                // typeof(AboutInheritance),
+                typeof(AboutDelegates),
+                typeof(AboutLambdas),
+                typeof(AboutLinq),
+                typeof(AboutInheritance),
                 // END: Explorer Mode
 
                 // START: Epic mode
-                // typeof(AboutDelegates),
-                // typeof(AboutGenericContainers),
-                // typeof(AboutBitwiseAndShiftOperator),
+                typeof(AboutGenericContainers),
+                typeof(AboutBitwiseAndShiftOperator),
                 };
         }
     }
