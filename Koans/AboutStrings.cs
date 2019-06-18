@@ -66,7 +66,7 @@ broken line";
             // Escaped characters in verbatim strings are covered later.
             var literalString = FILL_ME_IN;
             Assert.Equal(20, verbatimString.Length);
-            Assert.Equal(@"I\r\nam a\r\nbroken line \r(pos 1)", verbatimString);
+            Assert.Equal("I\r\nam a\r\nbroken line", verbatimString);
         }
 
         [Step(7)]
